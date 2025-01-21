@@ -1,0 +1,8 @@
+node_modules/
+/output/
+/generated-docs/
+/.psa*
+package-lock.json
+/.vscode
+/.spago/
+spago.lock
