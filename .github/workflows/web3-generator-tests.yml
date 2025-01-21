@@ -1,0 +1,21 @@
+name: Run web3-generator test suite
+
+on:
+  push:
+    branches:
+    - '*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    - name: run tests
+      run: |
+        npm install
+        npx spago build -p web3-generator
+        npm run test-web3-generator
