@@ -5,9 +5,8 @@
   "license": "ISC",
   "scripts": {
     "build": "spago build",
-    "test-eth-core": "spago test -p eth-core",
-    "tidy": "purs-tidy format-in-place \"eth-core/**/*.purs\"",
-    "tidy-check": "purs-tidy check \"eth-core/**/*.purs\""
+    "tidy": "purs-tidy format-in-place \"eth-core/**/*.purs\" \"web3/**/*.purs\"",
+    "tidy-check": "purs-tidy check \"eth-core/**/*.purs\" \"web3/**/*.purs\""
   },
   "dependencies": {
     "ethjs-provider-http": "^0.1.6",
