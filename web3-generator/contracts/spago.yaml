@@ -1,0 +1,4 @@
+package:
+  name: web3-generator-test-contracts
+  dependencies:
+    - web3
