@@ -1,4 +1,4 @@
-module Common where
+module Test.EthCore.Common where
 
 import Prelude
 

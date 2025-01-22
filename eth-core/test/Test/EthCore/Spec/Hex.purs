@@ -1,4 +1,4 @@
-module CoreSpec.Hex (hexSpec) where
+module Test.EthCore.Spec.Hex (hexSpec) where
 
 import Prelude
 

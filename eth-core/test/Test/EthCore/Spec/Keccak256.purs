@@ -1,4 +1,4 @@
-module CoreSpec.Keccak256 (keccak256Spec) where
+module Test.EthCore.Spec.Keccak256 (keccak256Spec) where
 
 import Prelude
 

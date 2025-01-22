@@ -1,8 +1,8 @@
-module CoreSpec.RLP (rlpSpec) where
+module Test.EthCore.Spec.RLP (rlpSpec) where
 
 import Prelude
 
-import Common (RawTransaction(..), makeTransactionMessage, mkAddress', mkHexString')
+import Test.EthCore.Common (RawTransaction(..), makeTransactionMessage, mkAddress', mkHexString')
 import Node.Buffer.Immutable as B
 import Data.Maybe (Maybe(..))
 import Network.Ethereum.Core.BigNumber (fromInt, pow)

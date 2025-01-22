@@ -1,8 +1,8 @@
-module CoreSpec.Signatures (signatureSpec) where
+module Test.EthCore.Spec.Signatures (signatureSpec) where
 
 import Prelude
 
-import Common (RawTransaction(..), makeTransactionMessage, mkAddress', mkHexString', mkPrivateKey')
+import Test.EthCore.Common (RawTransaction(..), makeTransactionMessage, mkAddress', mkHexString', mkPrivateKey')
 import Effect.Aff (Aff)
 import Data.Maybe (Maybe(..))
 import Network.Ethereum.Core.BigNumber (fromInt)

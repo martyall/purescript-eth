@@ -1,4 +1,4 @@
-module CoreSpec.BigNumber (bigNumberSpec) where
+module Test.EthCore.Spec.BigNumber (bigNumberSpec) where
 
 import Prelude
 
