@@ -1,4 +1,4 @@
-module Web3Spec.Encoding.ContainersSpec (spec, BMPString(..)) where
+module Test.Web3.Encoding.ContainersSpec (spec, BMPString(..)) where
 
 import Prelude
 

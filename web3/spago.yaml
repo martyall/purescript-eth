@@ -40,7 +40,7 @@ package:
     - unsafe-coerce: ">=6.0.0 <7.0.0"
     - variant: ">=8.0.0 <9.0.0"
   test:
-    main: Test.Main
+    main: Test.Web3.Main
     dependencies:
       - quickcheck: ">=7.0.0 <8.0.0"
       - quickcheck-laws: ">=8.0.0 <9.0.0"

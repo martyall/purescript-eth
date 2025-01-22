@@ -1,4 +1,4 @@
-module Web3Spec.Live.RPCSpec (spec) where
+module Test.Web3.Live.RPCSpec (spec) where
 
 import Prelude
 import Data.Array ((!!), last)
@@ -17,7 +17,7 @@ import Network.Ethereum.Web3.Api as Api
 import Partial.Unsafe (unsafePartial)
 import Test.Spec (SpecT, describe, it)
 import Test.Spec.Assertions (shouldEqual, shouldSatisfy)
-import Web3Spec.Live.Utils (assertWeb3, pollTransactionReceipt)
+import Test.Web3.Live.Utils (assertWeb3, pollTransactionReceipt)
 
 spec :: Provider -> SpecT Aff Unit Aff Unit
 spec provider =

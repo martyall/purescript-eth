@@ -1,4 +1,4 @@
-module Web3Spec.Live.Utils
+module Test.Web3.Live.Utils
   ( assertWeb3
   , bigGasLimit
   , defaultTestTxOptions

@@ -1,4 +1,4 @@
-module Web3Spec.Encoding.SimpleSpec (spec) where
+module Test.Web3.Encoding.SimpleSpec (spec) where
 
 import Prelude
 import Effect.Aff (error, throwError)

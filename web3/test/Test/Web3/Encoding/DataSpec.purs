@@ -1,4 +1,4 @@
-module Web3Spec.Encoding.DataSpec (spec, approve) where
+module Test.Web3.Encoding.DataSpec (spec, approve) where
 
 import Prelude
 
