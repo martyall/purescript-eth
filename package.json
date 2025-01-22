@@ -4,8 +4,9 @@
   "description": "Collection of ethereum web3 libraries for PureScript",
   "license": "ISC",
   "scripts": {
-    "postinstall": "spago install",
     "build": "spago build",
+    "chanterelle-docs": "cd chanterelle/docs; make html;",
+    "postinstall": "spago install",
     "test-web3-generator": "rm -rf web3/generator/contracts/src; spago test -p web3-generator; spago build -p web3-generator-test-contracts",
     "tidy": "purs-tidy format-in-place \"eth-core/**/*.purs\" \"web3/**/*.purs\" \"web3-generator/**/*.purs\"",
     "tidy-check": "purs-tidy check \"eth-core/**/*.purs\" \"web3/**/*.purs\" \"web3-generator/**/*.purs\""
@@ -18,9 +19,13 @@
     "solc": "^0.8"
   },
   "devDependencies": {
+    "openzeppelin-contracts": "^4.0.0",
     "purescript": "^0.15.8",
     "purescript-psa": "^0.8.2",
     "purs-tidy": "^0.10.0",
     "spago": "next"
+  },
+  "bin": {
+    "chanterelle": "chanterelle-bin.sh"
   }
 }

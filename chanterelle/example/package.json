@@ -1,0 +1,25 @@
+{
+  "name": "chanterelle-example",
+  "version": "7.0.0",
+  "description": "Chanterell demo project",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "spago install",
+    "build-contracts": "spago run -p build-contracts",
+    "deploy": "spago run -p deploy",
+    "test": "spago test"
+  },
+  "dependencies": {
+    "ethjs-provider-http": "^0.1.6",
+    "keccak": "^3.0.0",
+    "rlp": "^2.0.0",
+    "secp256k1": "^5.0.0"
+  },
+  "devDependencies": {
+    "openzeppelin-contracts": "^4.0.0",
+    "purescript": "^0.15.8",
+    "purescript-psa": "^0.8.2",
+    "solc": "^0.8",
+    "spago": "next"
+  }
+}
