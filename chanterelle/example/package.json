@@ -7,7 +7,7 @@
     "postinstall": "spago install",
     "build-contracts": "spago run -p build-contracts",
     "deploy": "spago run -p deploy",
-    "test": "spago test"
+    "test": "spago test -p deploy"
   },
   "dependencies": {
     "ethjs-provider-http": "^0.1.6",
