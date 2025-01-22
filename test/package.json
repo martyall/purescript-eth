@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "spago install",
+    "build-contracts": "spago run -p build-contracts",
+    "test": "spago test -p test-contracts"
+  },
+  "devDependencies": {
+    "ethjs-provider-http": "^0.1.6",
+    "keccak": "^3.0.0",
+    "openzeppelin-contracts": "^4.0.0",
+    "purescript": "^0.15.8",
+    "purescript-psa": "^0.8.2",
+    "purs-tidy": "^0.10.0",
+    "spago": "next",
+    "rlp": "^2.0.0",
+    "secp256k1": "^5.0.0",
+    "solc": "^0.8"
+  }
+}

@@ -114,7 +114,7 @@
           "build_plan": []
         }
       },
-      "deploy": {
+      "test-contracts": {
         "path": "./",
         "core": {
           "dependencies": [
@@ -275,9 +275,14 @@
         "test": {
           "dependencies": [
             {
-              "spec": ">=8.1.1 <9.0.0"
+              "quickcheck": ">=7.0.0 <8.0.0"
             },
-            "spec-node"
+            {
+              "spec": ">=8.0.0 <9.0.0"
+            },
+            {
+              "spec-node": ">=0.0.3 <1.0.0"
+            }
           ],
           "build_plan": [
             "aff",
@@ -314,6 +319,7 @@
             "invariant",
             "js-date",
             "lazy",
+            "lcg",
             "lists",
             "maybe",
             "mmorph",
@@ -338,6 +344,8 @@
             "posix-types",
             "prelude",
             "profunctor",
+            "quickcheck",
+            "random",
             "record",
             "refs",
             "safe-coerce",
@@ -881,7 +889,7 @@
     },
     "extra_packages": {
       "chanterelle": {
-        "path": ".."
+        "path": "../chanterelle"
       },
       "coroutine-transducers": {
         "git": "https://github.com/martyall/purescript-coroutine-transducers",
@@ -939,10 +947,10 @@
         ]
       },
       "eth-core": {
-        "path": "../../eth-core"
+        "path": "../eth-core"
       },
       "solc": {
-        "path": "../../solc"
+        "path": "../solc"
       },
       "tidy": {
         "git": "https://github.com/natefaubion/purescript-tidy.git",
@@ -1009,10 +1017,10 @@
         ]
       },
       "web3": {
-        "path": "../../web3"
+        "path": "../web3"
       },
       "web3-generator": {
-        "path": "../../web3-generator"
+        "path": "../web3-generator"
       }
     }
   },
@@ -1174,7 +1182,7 @@
     },
     "chanterelle": {
       "type": "local",
-      "path": "..",
+      "path": "../chanterelle",
       "dependencies": [
         "aff",
         "ansi",
@@ -1403,7 +1411,7 @@
     },
     "eth-core": {
       "type": "local",
-      "path": "../../eth-core",
+      "path": "../eth-core",
       "dependencies": [
         "argonaut",
         "arrays",
@@ -1733,6 +1741,19 @@
         "foldable-traversable",
         "invariant",
         "prelude"
+      ]
+    },
+    "lcg": {
+      "type": "registry",
+      "version": "4.0.0",
+      "integrity": "sha256-h7ME5cthLfbgJOJdsZcSfFpwXsx4rf8YmhebU+3iSYg=",
+      "dependencies": [
+        "effect",
+        "integers",
+        "maybe",
+        "partial",
+        "prelude",
+        "random"
       ]
     },
     "lists": {
@@ -2190,6 +2211,49 @@
         "prelude"
       ]
     },
+    "quickcheck": {
+      "type": "registry",
+      "version": "8.0.1",
+      "integrity": "sha256-ZvpccKQCvgslTXZCNmpYW4bUsFzhZd/kQUr2WmxFTGY=",
+      "dependencies": [
+        "arrays",
+        "console",
+        "control",
+        "effect",
+        "either",
+        "enums",
+        "exceptions",
+        "foldable-traversable",
+        "gen",
+        "identity",
+        "integers",
+        "lazy",
+        "lcg",
+        "lists",
+        "maybe",
+        "newtype",
+        "nonempty",
+        "numbers",
+        "partial",
+        "prelude",
+        "record",
+        "st",
+        "strings",
+        "tailrec",
+        "transformers",
+        "tuples",
+        "unfoldable"
+      ]
+    },
+    "random": {
+      "type": "registry",
+      "version": "6.0.0",
+      "integrity": "sha256-CJ611a35MPCE7XQMp0rdC6MCn76znlhisiCRgboAG+Q=",
+      "dependencies": [
+        "effect",
+        "integers"
+      ]
+    },
     "record": {
       "type": "registry",
       "version": "4.0.0",
@@ -2243,7 +2307,7 @@
     },
     "solc": {
       "type": "local",
-      "path": "../../solc",
+      "path": "../solc",
       "dependencies": [
         "aff",
         "argonaut",
@@ -2584,7 +2648,7 @@
     },
     "web3": {
       "type": "local",
-      "path": "../../web3",
+      "path": "../web3",
       "dependencies": [
         "aff",
         "argonaut",
@@ -2628,7 +2692,7 @@
     },
     "web3-generator": {
       "type": "local",
-      "path": "../../web3-generator",
+      "path": "../web3-generator",
       "dependencies": [
         "aff",
         "ansi",

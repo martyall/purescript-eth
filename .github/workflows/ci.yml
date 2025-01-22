@@ -1,4 +1,4 @@
-name: Chanterelle example tests
+name: Web3 E2E tests
 
 on:
   push:
@@ -21,11 +21,11 @@ jobs:
         npm install
         npm run build-contracts
         npx spago build
-      working-directory: chanterelle/example
+      working-directory: test
 
     - name: test
       run: |
         docker run --rm -d -it -p 8545:8545 foamspace/cliquebait:latest
         sleep 2m
         npx spago test
-      working-directory: chanterelle/example
+      working-directory: test
