@@ -1,0 +1,14 @@
+/bower_components/
+node_modules/
+/.pulp-cache/
+/output/
+/generated-docs/
+/.psc*
+/.purs*
+/.psa*
+*.swp
+*#*
+package-lock.json
+/.vscode
+/.spago/
+.spec-results
