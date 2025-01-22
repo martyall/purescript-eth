@@ -1,4 +1,4 @@
-module Test.Main where
+module Test.Web3Generator.Main where
 
 import Prelude
 

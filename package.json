@@ -6,8 +6,8 @@
   "scripts": {
     "build": "spago build",
     "test-web3-generator": "rm -rf web3/generator/contracts/src; spago test -p web3-generator; spago build -p web3-generator-test-contracts",
-    "tidy": "purs-tidy format-in-place \"eth-core/**/*.purs\" \"web3/**/*.purs\"",
-    "tidy-check": "purs-tidy check \"eth-core/**/*.purs\" \"web3/**/*.purs\""
+    "tidy": "purs-tidy format-in-place \"eth-core/**/*.purs\" \"web3/**/*.purs\" \"web3-generator/**/*.purs\"",
+    "tidy-check": "purs-tidy check \"eth-core/**/*.purs\" \"web3/**/*.purs\" \"web3-generator/**/*.purs\""
   },
   "dependencies": {
     "ethjs-provider-http": "^0.1.6",
