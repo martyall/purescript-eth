@@ -1,26 +1,14 @@
 # purescript-web3
-<img src=https://github.com/f-o-a-m/purescript-web3/blob/master/purescript-web3-logo.png width="75">
+[![Run web3 test suite](https://github.com/martyall/purescript-eth/actions/workflows/web3-tests.yml/badge.svg)](https://github.com/martyall/purescript-eth/actions/workflows/web3-tests.yml)
 
 
 # A Purescript Client for the Web3 API
 
 `purescript-web3` is a library for interacting with an ethereum node in purescript.
 
-Using [purescript-web3-generator](https://github.com/f-o-a-m/purescript-web3-generator) or [chanterelle](https://github.com/f-o-a-m/chanterelle) it is also possible (and recommended) to generate a library from a set of smart contract abis which is capable of templating transactions and event filters/watchers. The README has instructions for getting started.
+Using [purescript-web3-generator](../web3-generator/README.md) or [chanterelle](../chanterelle/README.md) it is also possible (and recommended) to generate a library from a set of smart contract abis which is capable of templating transactions and event filters/watchers. The README has instructions for getting started.
 
-To see an example project, it is recommended to look at the [tests repository](https://github.com/f-o-a-m/purescript-web3-tests) (which uses Chanterelle)
-
-## Build Instructions
-```
-> npm install
-> npm run build
-> docker run -d -p 8545:8545 -e ACCOUNTS_TO_CREATE=10 foamspace/cliquebait:v1.9.12
-> npm run test
-```
-
-## Documentation
-
-Module documentation is [published on Pursuit](http://pursuit.purescript.org/packages/purescript-web3).
+To see an example project, it is recommended to look at the [tests repository](../test) (which uses Chanterelle)
 
 ## Examples
 
@@ -43,7 +31,7 @@ contract TupleStorage {
 }
 ```
 
-If we used [purescript-web3-generator](https://github.com/f-o-a-m/purescript-web3-generator), we are given a function with the following signature:
+If we used [purescript-web3-generator](../web3-generator/README.md), we are given a function with the following signature:
 
 ```purescript
 setTuple :: forall e.

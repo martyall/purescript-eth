@@ -1,4 +1,5 @@
 # purescript-web3-tests
+[![Web3 E2E tests](https://github.com/martyall/purescript-eth/actions/workflows/ci.yml/badge.svg)](https://github.com/martyall/purescript-eth/actions/workflows/ci.yml)
 
 This repo is the closest thing you can get to a monorepo in spago (unfortunately as of right now you cannot manage multiple packes in one repo with spago).
 
@@ -12,8 +13,7 @@ You can run the tests locally via
 ```
 > docker run -d -p 8545:8545 -e ACCOUNTS_TO_CREATE=10 foamspace/cliquebait:v1.9.12
 > npm install
-> npm run build 
-> npm run chanterelle-build
+> npm run build-contracts
 > npm run test
 
 ```

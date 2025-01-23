@@ -1,4 +1,6 @@
 # Chanterelle Example
+[![Chanterelle example tests](https://github.com/martyall/purescript-eth/actions/workflows/test-chanterelle-example.yml/badge.svg)](https://github.com/martyall/purescript-eth/actions/workflows/test-chanterelle-example.yml)
+
 
 This folder contains a complete example project for an Ethereum appliation managed using chanterelle. The application is simple -- there is an ERC20 token contract (`Token.sol`) and a contract (`SimplePaidStorage.sol`) that maintains a simple `uint` variable and requires users to pay tokens to update the state.
 

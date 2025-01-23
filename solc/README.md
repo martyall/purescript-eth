@@ -1,5 +1,4 @@
 # purescript-solc
-
-[![Build Status](https://travis-ci.com/f-o-a-m/purescript-solc.svg?branch=master)](https://travis-ci.com/f-o-a-m/purescript-solc)
+[![Run the solc test suite](https://github.com/martyall/purescript-eth/actions/workflows/solc-tests.yml/badge.svg)](https://github.com/martyall/purescript-eth/actions/workflows/solc-tests.yml)
 
 PureScript bindings for the JavaScript bindings for the Solidity compiler.
