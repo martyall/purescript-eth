@@ -1,5 +1,5 @@
 # purescript-eth
-<img src=https://github.com/martyall/purescript-eth/blob/master/web3/purescript-web3-logo.png width="75">
+<img src=https://github.com/martyall/purescript-eth/blob/main/web3/purescript-web3-logo.png width="75">
 
 Core libraries for interacting with Ethereum data
 
