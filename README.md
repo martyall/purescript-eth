@@ -3,11 +3,11 @@
 
 Core libraries for interacting with Ethereum data
 
-- eth-core: Core types and functions (e.g. bytestring operations, encodings, crypto, etc)
-- web3: Web3 client API for interacting with an ethereum node
-- web3-generator: Generate purescript FFI for your solidity smart contracts
-- solc: Wrapper for the solidity compiler (mostly for internal use in chanterelle)
-- chanterelle: A CLI for deploying, managing, and testing smart contracts on Ethereum
+- `eth-core`: Core types and functions (e.g. bytestring operations, encodings, crypto, etc)
+- `web3`: Web3 client API for interacting with an ethereum node
+- `web3-generator`: Generate purescript FFI for your solidity smart contracts
+- `solc`: Wrapper for the solidity compiler (mostly for internal use in chanterelle)
+- `chanterelle`: A CLI for deploying, managing, and testing smart contracts on Ethereum
 
 
 ### Previous work
