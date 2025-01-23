@@ -1,10 +1,7 @@
 # chanterelle
-
-[![Build Status](https://travis-ci.com/f-o-a-m/chanterelle.svg?branch=master)](https://travis-ci.com/f-o-a-m/chanterelle)
-
 [![Chanterelle example tests](https://github.com/martyall/purescript-eth/actions/workflows/test-chanterelle-example.yml/badge.svg)](https://github.com/martyall/purescript-eth/actions/workflows/test-chanterelle-example.yml)
 
-<img src=https://github.com/martyall/purescript-eth/blob/master/chanterelle/chanterelle-logo.svg width="150">
+<img src=https://github.com/martyall/purescript-eth/blob/main/chanterelle/chanterelle-logo.svg width="150">
 
 _a more functional truffle_
 
