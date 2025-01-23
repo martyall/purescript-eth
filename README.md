@@ -11,5 +11,4 @@ Core libraries for interacting with Ethereum data
 
 
 ### Previous work
-All of these packages were previously listed in the [f-o-a-m](https://github.com/f-o-a-m) github org (no longer active). Since spago now allows for monorepo package management, I have greatly simplified the situation by consolidating everything here. All future work will be posted in this repository, the others are
-no archived.
+All of these packages were previously listed in the [f-o-a-m](https://github.com/f-o-a-m) github org (no longer active). Since spago now allows for monorepo package management, I have greatly simplified the situation by consolidating everything here. All future work will be posted in this repository, the others are now archived.
