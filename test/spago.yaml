@@ -26,7 +26,7 @@ package:
       - spec-node: ">=0.0.3 <1.0.0"
 workspace:
   packageSet:
-    registry: 62.3.1
+    registry: 65.0.1
   extraPackages:
     chanterelle:
       path: ../chanterelle
@@ -50,101 +50,10 @@ workspace:
         - tuples
       git: https://github.com/martyall/purescript-coroutine-transducers
       ref: v1.0.0
-    dodo-printer:
-      dependencies:
-        - aff
-        - ansi
-        - arrays
-        - avar
-        - console
-        - control
-        - effect
-        - either
-        - exceptions
-        - foldable-traversable
-        - integers
-        - lists
-        - maybe
-        - minibench
-        - newtype
-        - node-buffer
-        - node-child-process
-        - node-path
-        - node-process
-        - node-streams
-        - parallel
-        - partial
-        - posix-types
-        - prelude
-        - safe-coerce
-        - strings
-        - tuples
-      git: https://github.com/natefaubion/purescript-dodo-printer.git
-      ref: v2.2.1
     eth-core:
       path: ../eth-core
     solc:
       path: ../solc
-    tidy:
-      dependencies:
-        - arrays
-        - dodo-printer
-        - foldable-traversable
-        - language-cst-parser
-        - lists
-        - maybe
-        - ordered-collections
-        - partial
-        - prelude
-        - strings
-        - tuples
-      git: https://github.com/natefaubion/purescript-tidy.git
-      ref: v0.10.0
-    tidy-codegen:
-      dependencies:
-        - aff
-        - ansi
-        - arrays
-        - avar
-        - bifunctors
-        - console
-        - control
-        - dodo-printer
-        - effect
-        - either
-        - enums
-        - exceptions
-        - filterable
-        - foldable-traversable
-        - free
-        - identity
-        - integers
-        - language-cst-parser
-        - lazy
-        - lists
-        - maybe
-        - newtype
-        - node-buffer
-        - node-child-process
-        - node-path
-        - node-process
-        - node-streams
-        - ordered-collections
-        - parallel
-        - partial
-        - posix-types
-        - prelude
-        - record
-        - safe-coerce
-        - st
-        - strings
-        - tidy
-        - transformers
-        - tuples
-        - type-equality
-        - unicode
-      git: https://github.com/natefaubion/purescript-tidy-codegen.git
-      ref: v4.0.0
     web3:
       path: ../web3
     web3-generator:
