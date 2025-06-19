@@ -1,7 +1,7 @@
 package:
   name: web3-generator
   dependencies:
-    - aff: ">=7.1.0 <8.0.0"
+    - aff: ">=8.0.0 <9.0.0"
     - ansi: ">=7.0.0 <8.0.0"
     - argonaut: ">=9.0.0 <10.0.0"
     - argonaut-codecs: ">=9.1.0 <10.0.0"
