@@ -1,7 +1,7 @@
 package:
   name: web3
   dependencies:
-    - aff: ">=7.1.0 <8.0.0"
+    - aff: ">=8.0.0 <9.0.0"
     - argonaut: ">=9.0.0 <10.0.0"
     - arrays: ">=7.3.0 <8.0.0"
     - bifunctors: ">=6.0.0 <7.0.0"
@@ -22,7 +22,7 @@ package:
     - maybe: ">=6.0.0 <7.0.0"
     - newtype: ">=5.0.0 <6.0.0"
     - node-buffer: ">=9.0.0 <10.0.0"
-    - parallel: ">=6.0.0 <7.0.0"
+    - parallel: ">=7.0.0 <8.0.0"
     - parsing: ">=10.2.0 <11.0.0"
     - partial: ">=4.0.0 <5.0.0"
     - prelude: ">=6.0.1 <7.0.0"
@@ -42,8 +42,8 @@ package:
   test:
     main: Test.Web3.Main
     dependencies:
-      - quickcheck: ">=7.0.0 <8.0.0"
-      - quickcheck-laws: ">=8.0.0 <9.0.0"
+      - quickcheck: ">=8.0.0 <9.0.0"
+      - quickcheck-laws: ">=7.0.0 <8.0.0"
       - spec: ">=8.0.0 <9.0.0"
       - spec-node: ">=0.0.3 <1.0.0"
 
